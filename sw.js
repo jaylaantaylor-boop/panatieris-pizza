@@ -8,7 +8,7 @@
    itself caching under 'panatieris-shell-v1' until Aug 2026, and inheriting
    that exact name would have had the two apps sharing one cache bucket. */
 const CACHE_PREFIX = 'panatieris-pizza-shell-';
-const CACHE_NAME = CACHE_PREFIX + 'v1';
+const CACHE_NAME = CACHE_PREFIX + 'v2';
 const APP_SHELL = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', (e) => {
